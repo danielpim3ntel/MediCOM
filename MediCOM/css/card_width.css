@@ -1,0 +1,11 @@
+.card-large{
+    height:650px;
+}
+
+.carousel {
+    height:500px !important;
+    width: 100%;
+    z-index: 0;
+    opacity: 1;
+    visibility: visible;
+  }

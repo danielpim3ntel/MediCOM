@@ -1,0 +1,31 @@
+/*
+  Paleta de colores: #F4F4F4,#C8D2DF,#006699,#372A6D,#26BEE6
+*/
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+
+#nombreEscuela{
+  color:#006699;
+  text-align: center;
+}
+
+.PA{
+  text-align: right;
+  background-color: #C8D2DF;
+  color:#006699;
+}
+
+.subtitulo{
+  color:#372A6D;
+}
+
+.subtituloPA{
+  color:#26BEE6;
+}
+
+.centrado{
+  text-align:center;
+}

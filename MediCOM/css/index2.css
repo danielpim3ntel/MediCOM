@@ -1,0 +1,80 @@
+/*
+  Paleta de colores: #F4F4F4,#C8D2DF,#006699,#372A6D,#26BEE6, #74284
+*/
+
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+}
+
+body{
+  background-image: url("./../imgs/tbs.png");
+  background-repeat: repeat;
+}
+
+i{
+  color: #069;
+}
+
+input{
+  border:0;
+  background-color: #f4f4f4;
+}
+
+div.columna3 h3{
+  color:#C8D2DF;
+}
+
+.imgResponsiva {
+  width: 100%;
+  height: auto;
+}
+
+.centrado{
+  text-align: center;
+}
+
+.pieImg{
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.subtitulo{
+  background-color: #f5f5f5;
+  color: #26BEE6;
+  padding: 10px;
+}
+
+#pie .fila{
+  background-color: #26BEE6;
+  padding: 2rem 1rem 0.5rem;
+  font-size: 0.75rem;
+  color: white;
+}
+
+/* ******* */
+/* Top Nav */
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #069;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #0099e6;
+  color: black;
+}
+
+/* ****** */

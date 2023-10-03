@@ -1,0 +1,40 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div[class^="columna"]{
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: justify;
+}
+
+div#contenedor{
+  width: 80%;
+  margin: 0 auto;
+}
+
+div.fila{
+  width: 100%;
+  clear: both;
+}
+
+div.columna2{
+  width: 50%;
+}
+
+div.columna3{
+  width: 33.3%;
+}
+
+div.columna23{
+  width: 66.6%;
+}
+
+div.columna4{
+  width: 25%;
+}
+
+div.columna5{
+  width: 20%;
+}

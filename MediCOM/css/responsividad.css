@@ -1,0 +1,71 @@
+*{
+  box-sizing: border-box;
+}
+
+/* Mis conceptos */
+#contenedor{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fila{
+  width: 100%;
+  clear: both;
+}
+
+.botonCurvo {
+  background-color: #006699;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+/* Comun a todas las clases columna */
+[class^="col-"]{
+  float: left;
+  padding: 10px;
+  text-align: justify;
+}
+
+/* First Mobile */
+[class^="col-s"]{
+  width: 100%;
+}
+
+/* Tablets */
+@media only screen and (min-width: 600px) {
+  .col-m-1 {width: 8.33%;}
+  .col-m-2 {width: 16.66%;}
+  .col-m-3 {width: 25%;}
+  .col-m-4 {width: 33.33%;}
+  .col-m-5 {width: 41.66%;}
+  .col-m-6 {width: 50%;}
+  .col-m-7 {width: 58.33%;}
+  .col-m-8 {width: 66.66%;}
+  .col-m-9 {width: 75%;}
+  .col-m-10 {width: 83.33%;}
+  .col-m-11 {width: 91.66%;}
+  .col-m-12 {width: 100%;}
+}
+
+/* PC */
+@media only screen and (min-width: 900px) {
+  .col-l-1 {width: 8.33%;}
+  .col-l-2 {width: 16.66%;}
+  .col-l-3 {width: 25%;}
+  .col-l-4 {width: 33.33%;}
+  .col-l-5 {width: 41.66%;}
+  .col-l-6 {width: 50%;}
+  .col-l-7 {width: 58.33%;}
+  .col-l-8 {width: 66.66%;}
+  .col-l-9 {width: 75%;}
+  .col-l-10 {width: 83.33%;}
+  .col-l-11 {width: 91.66%;}
+  .col-l-12 {width: 100%;}
+}
